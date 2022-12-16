@@ -15,7 +15,6 @@ const BridgeMaker = {
     for (let i = 0; i < size; i += 1) {
       bridge.push(generateRandomNumber() === 1 ? COMMAND.UP : COMMAND.DOWN);
     }
-
     return bridge;
   },
 };
