@@ -8,7 +8,7 @@ const BridgeRandomNumberGenerator = require("../util/BridgeRandomNumberGenerator
 /**
  * 다리 건너기 게임을 관리하는 클래스
  */
-class BridgeGame {
+class BridgeGameController {
   bridge;
 
   tryCount = 0;
@@ -73,4 +73,4 @@ class BridgeGame {
   retry() {}
 }
 
-module.exports = BridgeGame;
+module.exports = BridgeGameController;
